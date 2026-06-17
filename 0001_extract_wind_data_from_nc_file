@@ -6,6 +6,11 @@ This code is part of a tutorial on MATLAB for the use of MIKE 21.
 You are free to use and modify this code for academic and 
 non-academic purposes. Don't forget to Follow my github profile.
 
+Step - 1
+https://cds.climate.copernicus.eu/datasets
+
+Step - 2
+Select dataset ~ "ERA5 hourly data on single levels from 1940 to present" ~ 
 
 %Read Lat and Long
 lon = ncread ('Wind_Data_2025.nc','longitude');
