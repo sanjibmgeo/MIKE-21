@@ -1,3 +1,12 @@
+
+"0001_extract_wind_data_from_nc_file"
+Code Created by Sanjib Majumder
+Email: sanjibmgeo@gmail.com
+This code is part of a tutorial on MATLAB for the use of MIKE 21.
+You are free to use and modify this code for academic and 
+non-academic purposes. Don't forget to Follow my github profile.
+
+
 %Read Lat and Long
 lon = ncread ('Wind_Data_2025.nc','longitude');
 lat = ncread ('Wind_Data_2025.nc','latitude');
